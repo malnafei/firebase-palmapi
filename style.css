@@ -1,0 +1,49 @@
+/* Custom CSS on top of Bootstrap if needed */
+#chat-box {
+    margin-bottom: 10px;
+    background-color: #1a1a1a; /* Dark background for the chat box */
+    color: white; /* White text color */
+  }
+
+  body {
+    background-color: #1a1a1a; /* Dark background for the chat box */
+    color: white; /* White text color */
+  }
+  
+  .message {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .user-message {
+    background-color: #6c5ce7; /* Purple background */
+    color: white; /* White text color */
+    float: right;
+  }
+
+  .user-message.bg-primary.text-white.rounded.px-3.py-2.shadow-sm.w-50 {
+    border-radius: 10px 10px 0px 10px !important;
+  }
+
+  .ai-message.bg-light.rounded.px-3.py-2.shadow-sm.w-50 {
+    border-radius: 10px 10px 10px 0px !important;
+  }
+  
+  .ai-message {
+    background-color: #333; /* Dark grey background */
+    color: white; /* White text color */
+    float: left;
+  }
+  
+  /* Clear float */
+  .message::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .spinner-border {
+    color: #6c5ce7; /* Purple color to match the user bubble */
+  }
+  
